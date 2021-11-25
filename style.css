@@ -13,6 +13,45 @@
     fill: #fd2727;
 }
 
-g {
+
+/* 2 задание */
+
+.container {
+    width: 512px;
+    height: 366px;
+    margin:300px auto;
+    background-image: url(./assets/image/flat-plan.jpg);
+    background-size: 512px 366px;
+    z-index: -1;
+}
+
+.room {
+    opacity: 0.1;
     cursor: pointer;
 }
+.room:hover {
+    opacity: 0.7;
+}
+
+g {
+    fill: rgb(179, 179, 179);
+}
+
+.room:first-child:hover {
+    fill: aqua;
+}
+.room:nth-child(2):hover {
+    fill: rgb(0, 160, 53);
+}
+.room:nth-child(3):hover {
+    fill: rgb(177, 0, 0);
+}
+.room:nth-child(4):hover {
+    fill: rgb(4, 0, 255);
+}
+.room:last-child:hover {
+    fill: rgb(217, 255, 0);
+}
+
+
+
