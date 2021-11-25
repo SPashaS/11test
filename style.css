@@ -13,7 +13,6 @@
     fill: #fd2727;
 }
 
-
 /* 2 задание */
 
 .container {
@@ -53,5 +52,16 @@ g {
     fill: rgb(217, 255, 0);
 }
 
+/* 3 задание */
 
+.container3 {
+    margin: 10% auto;
+    width: 250px;
+    height: 100px;
+}
+
+.card {
+    width: 250px;
+    height: 100px;
+}
 

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>SVG 11 lesson</title>
+    </head>
+    <body>
+        <div class="container3">
+            <svg class="card" viewBox="0 0 50 20">
+                <g> 
+                    <title>Диаграмма исполльзуемых мною языков в вёрстке: </title>
+                    <desc>SCSS 35 процентов, Java Script 35 процентов, HTML 15 роцентов и прочие 15 процентов </desc>
+                    <circle r="10" cx="10" cy="10" fill="lightgray"/>
+
+                    <circle class="slills" r="5" cx="10" cy="10" fill="white"
+                        stroke="green"
+                        stroke-width="10"
+                        stroke-dasharray="calc(85 * 31.42 / 100) 31.42"
+                        transform="rotate(-90) translate(-20)"
+                    />
+
+                    <circle class="slills" r="5" cx="10" cy="10" fill="white"
+                        stroke="yellow"
+                        stroke-width="10"
+                        stroke-dasharray="calc(70 * 31.42 / 100) 31.42"
+                        transform="rotate(-90) translate(-20)"
+                    />
+
+                    <circle class="slills" r="5" cx="10" cy="10" fill="white"
+                        stroke="tomato"
+                        stroke-width="10"
+                        stroke-dasharray="calc(35 * 31.42 / 100) 31.42"
+                        transform="rotate(-90) translate(-20)"
+                    />
+
+                    <circle r="8" cx="10" cy="10" fill="white"/>
+                    <g aria-hidden="true">
+                        <text x="8" y="9" font-size="3">My</text>
+                        <text x="4" y="12" font-size="3">Lanquages</text>
+                    </g>
+                    
+                </g>   
+                <g aria-hidden="true">
+                    <circle r="2" cx="25" cy="3" fill="tomato"/>
+                    <text x="30" y="4" font-size="3">SCSS</text>
+
+                    <circle r="2" cx="25" cy="8" fill="yellow"/>
+                    <text x="30" y="9" font-size="3">Java Script</text>
+                
+                    <circle r="2" cx="25" cy="13" fill="green"/>
+                    <text x="30" y="14" font-size="3">HTML</text>
+                </g>
+                
+            </svg>
+        </div>
+    </body>
+</html>
