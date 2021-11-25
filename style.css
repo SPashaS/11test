@@ -1,0 +1,18 @@
+/* 1 задание */
+.str0 {
+    stroke:white;
+    stroke-width:76.36;
+    stroke-miterlimit:22.9256;
+}
+
+.fil0 {
+    fill:#EEEEEE;
+}
+
+.fil0:hover {
+    fill: #fd2727;
+}
+
+g {
+    cursor: pointer;
+}
